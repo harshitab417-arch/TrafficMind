@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Backend runtime data
+backend/trafficmind.db
+backend/uploads/*
+backend/sample_data/*.csv
+
+# JavaScript dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
